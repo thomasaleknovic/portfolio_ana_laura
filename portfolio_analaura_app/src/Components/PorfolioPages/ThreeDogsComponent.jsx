@@ -1,7 +1,7 @@
 
 import { PORTFOLIODATA } from '../../shared/PortfolioData';
 import { useState } from 'react';
-import HeaderPink from '../HeaderPinkComponent';
+import Nav from '../HeaderComponentMobile';
 
 
 export default function ThreeDogsComponent () {
@@ -12,7 +12,7 @@ export default function ThreeDogsComponent () {
     return(
 
         <div>
-            <Nav/>
+            <Nav />
             <div className='bg-white flex flex-col items-center text-gray-600 md:text-lg sm:text-base h-full'>
                 <img src={projectData.banner} alt='' className="mt-10 mb-14"></img>
                 <p>{projectData.description}</p>

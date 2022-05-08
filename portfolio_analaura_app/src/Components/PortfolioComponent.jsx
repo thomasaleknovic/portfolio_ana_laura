@@ -1,7 +1,5 @@
 import { PORTFOLIODATA } from '../shared/PortfolioData.js';
 import { useState } from 'react';
-import HeaderPink from './HeaderPinkComponent';
-import HeaderWhite from './HeaderComponent';
 import { Link } from 'react-router-dom';
 import Nav from './HeaderComponentMobile';
 

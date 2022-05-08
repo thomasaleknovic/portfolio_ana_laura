@@ -3,7 +3,7 @@
 export const PORTFOLIODATA = [
 
     {
-        id: 1,
+        id: "threedogsecats",
         name: 'Three Dogs & Cats',
         description: 'Ação para o programa ”Posso entrar?” da RBS.',
         cover: '/assets/Three Dogs/portfolio_threeDogs_1.png',
