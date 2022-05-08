@@ -1,3 +1,5 @@
+
+
 export const PORTFOLIODATA = [
 
     {
@@ -5,7 +7,7 @@ export const PORTFOLIODATA = [
         name: 'Three Dogs & Cats',
         description: 'Ação para o programa ”Posso entrar?” da RBS.',
         cover: '/assets/Three Dogs/portfolio_threeDogs_1.png',
-        banner: ['portfolio_analaura_app/assets/Three Dogs/portfolio_threeDogs_main_banner.png'],
+        banner: [' portfolio_ana_laura/portfolio_analaura_app/assets/Three Dogs/portfolio_threeDogs_main_banner.png'],
         projects: [
             {
             id: 0,
