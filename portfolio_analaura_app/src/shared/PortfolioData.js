@@ -13,7 +13,7 @@ export const PORTFOLIODATA = [
             id: 0,
             title: 'Posso entrar?',
             images:['/assets/Three Dogs/portfolio_threeDogs_2.png', '/assets/Three Dogs/portfolio_threeDogs_3.png','/assets/Three Dogs/portfolio_threeDogs_4.png', '/assets/Three Dogs/portfolio_threeDogs_5.png', '/assets/Three Dogs/portfolio_threeDogs_6.png'],
-            imagesTwo: ['./assets/Three Dogs/portfolio_threeDogs_8.png'],
+            imagesTwo: ['/assets/Three Dogs/portfolio_threeDogs_8.png'],
             description:'Idealização do quadro sobre adoção da Chica + ideias de presente + redação do certificado pet three + momento merchan com os produtos.'
             
             }

@@ -1,19 +1,21 @@
 import HeaderWhite from "./HeaderComponent"
 import Nav from './HeaderComponentMobile';
-import foto_ana_laura_650px from '/assets/foto_ana_laura_650px.png'
 
 
 export default function Home () {
 
     return(
-        <div className="lg:backgroundGradient md:backgroundMobile ">
+        <div className="md:backgroundGradient ">
             <Nav/>
+            <div>
+
+            </div>
             <div className="mt-20">
                 <div className="flex flex-row flex-wrap items-center px-28  justify-between">
                     <div className="">
-                        <img src={foto_ana_laura_650px}alt="" width={450} />
+                        <img src="/assets/foto_ana_laura_650px.png" alt="" width={450} />
                     </div>
-                    <div className="text-main-pink">
+                    <div className="text-main-pink sm:hidden">
                         <p className="text-[30px] font-thin italic -mb-2 ">Me chamo</p>
                         <p className="text-[50px] font-bold -mb-2">Ana Laura</p>
                         <p className="text-[30px] font-thin italic -mb-2">e esse é o meu portfólio de</p>
