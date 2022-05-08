@@ -6,7 +6,7 @@ import foto_ana_laura_650px from '/assets/foto_ana_laura_650px.png'
 export default function Home () {
 
     return(
-        <div className="backgroundGradient ">
+        <div className="lg:backgroundGradient md:backgroundMobile ">
             <Nav/>
             <div className="mt-20">
                 <div className="flex flex-row flex-wrap items-center px-28  justify-between">
