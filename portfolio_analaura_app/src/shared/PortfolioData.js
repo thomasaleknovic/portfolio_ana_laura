@@ -6,13 +6,13 @@ export const PORTFOLIODATA = [
         id: 1,
         name: 'Three Dogs & Cats',
         description: 'Ação para o programa ”Posso entrar?” da RBS.',
-        cover: './assets/Three Dogs/portfolio_threeDogs_1.png',
-        banner: [ThreeDogsBanner],
+        cover: '/assets/Three Dogs/portfolio_threeDogs_1.png',
+        banner: ['/assets/Three Dogs/portfolio_threeDogs_main_banner.png'],
         projects: [
             {
             id: 0,
             title: 'Posso entrar?',
-            images:['./assets/Three Dogs/portfolio_threeDogs_2.png', '/assets/Three Dogs/portfolio_threeDogs_3.png','/assets/Three Dogs/portfolio_threeDogs_4.png', '/assets/Three Dogs/portfolio_threeDogs_5.png', '/assets/Three Dogs/portfolio_threeDogs_6.png'],
+            images:['/assets/Three Dogs/portfolio_threeDogs_2.png', '/assets/Three Dogs/portfolio_threeDogs_3.png','/assets/Three Dogs/portfolio_threeDogs_4.png', '/assets/Three Dogs/portfolio_threeDogs_5.png', '/assets/Three Dogs/portfolio_threeDogs_6.png'],
             imagesTwo: ['./assets/Three Dogs/portfolio_threeDogs_8.png'],
             description:'Idealização do quadro sobre adoção da Chica + ideias de presente + redação do certificado pet three + momento merchan com os produtos.'
             

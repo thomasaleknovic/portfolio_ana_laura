@@ -2,7 +2,7 @@
 import { PORTFOLIODATA } from '../../shared/PortfolioData';
 import { useState } from 'react';
 import HeaderPink from '../HeaderPinkComponent';
-import ThreeDogsBanner from "/assets/Three Dogs/portfolio_threeDogs_main_banner.png";
+
 
 export default function ThreeDogsComponent () {
 
