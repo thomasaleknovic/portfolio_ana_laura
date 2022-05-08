@@ -39,7 +39,7 @@ export default function Portfolio () {
             <Nav />
             <div className='bg-white max-h-full'>
                 <div className=' p-10 bg-main-pink'>
-                <div className='text-white text-center mx-auto w-3/5 mb-[15rem] mt-10'>
+                <div className='text-white text-center mx-auto md:w-3/5 sm:w-4/5 mt-20 mb-[15rem] '>
                         <h2 className='text-4xl font-bold mb-5'>Antes, essa sou eu...</h2>
                         <p className=''>Curiosa por tudo e ansiosa por aprender, tenho 21 anos, muita bagagem e muita vontade de viver muito mais. Amante das Redes Sociais e de tudo que faz nosso mundo girar, fale sobre qualquer trend que vou ter assunto por horas.</p>
                     </div>

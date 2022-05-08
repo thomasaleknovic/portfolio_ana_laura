@@ -5,17 +5,24 @@ import Nav from './HeaderComponentMobile';
 export default function Home () {
 
     return(
-        <div className="md:backgroundGradient ">
+        <div className="backgroundGradient">
             <Nav/>
+            <div className="text-secondary-color sm:bg-main-pink sm:w-screen md:hidden text-center py-28 mb-[-150px] border-t-8 border-main-pink ">
+                        <p className="text-[30px] font-thin italic -mb-2 ">Me chamo</p>
+                        <p className="text-[50px] font-bold -mb-2">Ana Laura</p>
+                        <p className="text-[30px] font-thin italic -mb-2">e esse é o meu portfólio de</p>
+                        <p className="text-[50px] font-bold -mb-2">Digital Creative</p>
+    
+            </div>
             <div>
-
+            
             </div>
             <div className="mt-20">
                 <div className="flex flex-row flex-wrap items-center px-28  justify-between">
                     <div className="">
                         <img src="/assets/foto_ana_laura_650px.png" alt="" width={450} />
                     </div>
-                    <div className="text-main-pink ">
+                    <div className="text-main-pink sm:hidden md:block">
                         <p className="text-[30px] font-thin italic -mb-2 ">Me chamo</p>
                         <p className="text-[50px] font-bold -mb-2">Ana Laura</p>
                         <p className="text-[30px] font-thin italic -mb-2">e esse é o meu portfólio de</p>
@@ -23,6 +30,7 @@ export default function Home () {
     
                     </div>
                 </div>
+                
             </div>
         </div>
     )

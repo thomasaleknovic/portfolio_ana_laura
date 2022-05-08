@@ -9,12 +9,14 @@
     }
 };
 
+.backgroundMobile{
+  background: #F2D5C5
+}
+
 .backgroundGradient{
   background: linear-gradient(90deg, #F27D73 50%, #F2D5C5 50%)
 }
-.backgroundMobile{
-  background: #F27D73
-}
+
 
 body{
   background: linear-gradient(90deg, #F27D73 50%, #F2D5C5 50%)
