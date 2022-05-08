@@ -15,7 +15,7 @@ export default function Home () {
                     <div className="">
                         <img src="/assets/foto_ana_laura_650px.png" alt="" width={450} />
                     </div>
-                    <div className="text-main-pink sm:bg-secondary-color sm:w-screen lg:bg-transparent">
+                    <div className="text-main-pink bg-secondary-color w-screen lg:bg-transparent">
                         <p className="text-[30px] font-thin italic -mb-2 ">Me chamo</p>
                         <p className="text-[50px] font-bold -mb-2">Ana Laura</p>
                         <p className="text-[30px] font-thin italic -mb-2">e esse é o meu portfólio de</p>
