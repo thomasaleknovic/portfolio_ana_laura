@@ -23,7 +23,7 @@ export const PORTFOLIODATA = [
         id: "tresmarias",
         name: 'TrêsMarias',
         description: '',
-        cover: '/assets/TresMarias/portfolio_tresmarias_1.png',
+        cover: '/assets/TresMarias/portfolio_tresMarias_1.png',
         banner: ['/assets/TresMarias/portfolio_tresmarias_banner.png'],
         projects: [
             {
