@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faLinkedin, faInstagramSquare} from "@fortawesome/free-brands-svg-icons";
+import {faLinkedin, faInstagramSquare, faWhatsappSquare} from "@fortawesome/free-brands-svg-icons";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 
@@ -36,7 +36,10 @@ const Nav = () => {
             <FontAwesomeIcon className="fa-xl mr-3" icon={faLinkedin} height={50}/>
         </a>
         <a href="https://www.instagram.com/analaura_nazari/" target='_blank'>
-            <FontAwesomeIcon className="fa-xl" icon={faInstagramSquare} />
+            <FontAwesomeIcon className="fa-xl mr-3" icon={faInstagramSquare} />
+        </a>
+        <a href="https://wa.me/5551994680758" target='_blank'>
+          <FontAwesomeIcon className="fa-xl" icon={faWhatsappSquare}/>
         </a>
       </div>
       </div>
