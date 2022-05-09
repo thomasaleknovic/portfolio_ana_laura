@@ -19,7 +19,7 @@ export default function ComtemComponent () {
                 <div className='flex flex-row flex-wrap justify-center mt-10 p-4'>
                     {projectData.projects[0].images.map((photo) => {
                     return(
-                        <img src={photo} alt='' height={220} width={220} className='mr-4 mt-4 shadow-lg rounded-lg'/>
+                        <img src={photo} alt='' height={220} width={220} className='md:mr-4 mt-4 shadow-lg rounded-lg'/>
                         )})
                     }
                     <p className='text-center my-14 w-3/4'>{projectData.projects[0].description}</p>

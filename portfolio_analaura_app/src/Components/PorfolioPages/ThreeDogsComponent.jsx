@@ -23,7 +23,7 @@ export default function ThreeDogsComponent () {
                         )})
                     }
                 </div>
-                <p className='w-2/4 my-14 text-center'>{projectData.projects[0].description}</p>
+                <p className='w-3/4 my-14 text-center'>{projectData.projects[0].description}</p>
                 <a href='https://www.instagram.com/tv/CO_Q_C1pm2U/?igshid=YmMyMTA2M2Y=' target="_blank" className='relative grid overflow-hidden mb-10 rounded-lg cursor-pointer shadow-lg'>
                     <img src={projectData.projects[0].imagesTwo} alt='' height={300} width={300} className=''/>
                     <p className='bg-main-pink p-3 text-white font-bold w-full self-end text-center absolute'>Assista ao vídeo</p>
