@@ -23,21 +23,21 @@ export const PORTFOLIODATA = [
         id: "tresmarias",
         name: 'TrêsMarias',
         description: '',
-        cover: '/assets/TresMarias/portfolio_tresMarias_1.png',
-        banner: ['/assets/TresMarias/portfolio_tresMarias_banner.png'],
+        cover: '/assets/TresMarias/portfolio_tresmarias_1.png',
+        banner: ['/assets/TresMarias/portfolio_tresmarias_banner.png'],
         projects: [
             {
             id: 0,
             title: 'CAMPANHA DIA DAS MÃES',
-            images:['/assets/TresMarias/portfolio_tresMarias_11.png'],
-            imagesTwo:['/assets/TresMarias/portfolio_tresMarias_1_1.png', '/assets/TresMarias/portfolio_tresMarias_2.png', '/assets/TresMarias/portfolio_tresMarias_3.png', '/assets/TresMarias/portfolio_tresMarias_4.png', '/assets/TresMarias/portfolio_tresMarias_5.png', '/assets/TresMarias/portfolio_tresMarias_6.png', '/assets/TresMarias/portfolio_tresMarias_7.png', '/assets/TresMarias/portfolio_tresMarias_8.png'],
+            images:['/assets/TresMarias/portfolio_tresmarias_11.png'],
+            imagesTwo:['/assets/TresMarias/portfolio_tresmarias_1_1.png', '/assets/TresMarias/portfolio_tresmarias_2.png', '/assets/TresMarias/portfolio_tresmarias_3.png', '/assets/TresMarias/portfolio_tresmarias_4.png', '/assets/TresMarias/portfolio_tresmarias_5.png', '/assets/TresMarias/portfolio_tresmarias_6.png', '/assets/TresMarias/portfolio_tresmarias_7.png', '/assets/TresMarias/portfolio_tresmarias_8.png'],
             description:'Idealização de campanha e conceito + Slogan + Direção de filme principal de campanha + Depoimentos + Lançamento de pulseira.'
             
             },
             {
                 id: 1,
                 title: 'COLEÇÃO 7 PODERES',
-                images:['/assets/TresMarias/portfolio_tresMarias_9.png', '/assets/TresMarias/portfolio_tresMarias_10.png'],
+                images:['/assets/TresMarias/portfolio_tresmarias_9.png', '/assets/TresMarias/portfolio_tresmarias_10.png'],
                 description:'Campanha de lançamento da coleção 7 poderes com 7 revendedoras representando cada poder + Fashion film + Depoimentos de revendedores.'
                 
                 },
