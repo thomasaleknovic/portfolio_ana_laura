@@ -24,7 +24,7 @@ export const ContactUs = () => {
           <label>Email</label>
           <input type="email" name="email" className='mt-2 mb-10 rounded-full p-2 text-center'/>
           <label>Mensagem</label>
-          <textarea name="message" className='mt-2 mb-2 rounded-lg p-2 text-center' />
+          <textarea name="message" className='mt-2 mb-2 rounded-lg p-2 text-center h-[150px]' />
           <input type="submit" value="Enviar" className='mt-8 px-14 py-1 rounded-full bg-main-pink text-secondary-color cursor-pointer'/>
           </form>
       </div>
