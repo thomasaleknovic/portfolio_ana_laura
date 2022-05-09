@@ -1,4 +1,3 @@
-import HeaderWhite from "./HeaderComponent"
 import Nav from './HeaderComponentMobile';
 import { Link } from 'react-router-dom';
 
