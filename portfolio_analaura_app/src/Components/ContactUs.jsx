@@ -18,7 +18,7 @@ export const ContactUs = () => {
   return(
   
       <div className='flex justify-center'>
-        <form ref={form} onSubmit={sendEmail} className="bg-secondary-color rounded-lg w-2/4  flex flex-col items-center text-main-pink text-xl p-10" >
+        <form ref={form} onSubmit={sendEmail} className="bg-secondary-color rounded-lg w-6/5 md:w-2/4  flex flex-col items-center text-main-pink text-xl p-10" >
           <label>Nome</label>
           <input type="text" name="name" className='mt-2 mb-10 rounded-full p-2 text-center'/>
           <label>Email</label>
