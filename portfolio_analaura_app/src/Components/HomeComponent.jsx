@@ -1,5 +1,6 @@
 import HeaderWhite from "./HeaderComponent"
 import Nav from './HeaderComponentMobile';
+import { Link } from 'react-router-dom';
 
 
 export default function Home () {
@@ -12,9 +13,11 @@ export default function Home () {
                     <p className="text-[20px] font-thin italic -mb-2 ">Me chamo</p>
                     <p className="text-[40px] font-bold -mb-2">Ana Laura</p>
                     <p className="text-[20px] font-thin italic -mb-2">e esse é o meu portfólio de</p>
-                    <p className="text-[40px] font-bold -mb-2">Digital Creative</p>
+                    <p className="text-[40px] font-bold mb-10">Digital Creative</p>
+                    <Link to="/portfolio" className=" bg-secondary-color text-main-pink text-lg font-bold px-14 py-2 rounded-full">Conferir</Link>
                 </div>
-                <div className=" md:hidden mt-20 bg-main-pink">
+               
+                <div className=" md:hidden mt-16 bg-main-pink flex justify-center">
                     <img className="" src="/assets/foto_ana_laura_650px.png" alt="" width={450} />
                 </div>
             </div>
@@ -27,7 +30,8 @@ export default function Home () {
                         <p className="text-[30px] font-thin italic -mb-2 ">Me chamo</p>
                         <p className="text-[50px] font-bold -mb-2">Ana Laura</p>
                         <p className="text-[30px] font-thin italic -mb-2">e esse é o meu portfólio de</p>
-                        <p className="text-[50px] font-bold -mb-2">Digital Creative</p>
+                        <p className="text-[50px] font-bold mb-8">Digital Creative</p>
+                        <Link to="/portfolio" className=" bg-main-pink text-secondary-color text-lg font-bold px-14 py-2 rounded-full">Conferir</Link>
     
                     </div>
                 </div>

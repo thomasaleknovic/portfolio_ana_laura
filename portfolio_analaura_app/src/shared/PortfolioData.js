@@ -20,92 +20,84 @@ export const PORTFOLIODATA = [
         ]
     },
     {
-        id: 2,
+        id: "tresmarias",
         name: 'TrêsMarias',
         description: '',
         cover: '/assets/TresMarias/portfolio_tresMarias_1.png',
+        banner: ['/assets/TresMarias/portfolio_tresMarias_banner.png'],
         projects: [
             {
             id: 0,
             title: 'CAMPANHA DIA DAS MÃES',
-            images:[''],
-            description:'IDEALIZAÇÃO DE CAMPANHA E CONCEITO + SLOGAN + DIREÇÃO DE FILME PRINCIPAL DE CAMPANHA + DEPOIMENTOS + LANÇAMENTO DE PULSEIRA'
+            images:['/assets/TresMarias/portfolio_tresMarias_11.png'],
+            imagesTwo:['/assets/TresMarias/portfolio_tresMarias_1_1.png', '/assets/TresMarias/portfolio_tresMarias_2.png', '/assets/TresMarias/portfolio_tresMarias_3.png', '/assets/TresMarias/portfolio_tresMarias_4.png', '/assets/TresMarias/portfolio_tresMarias_5.png', '/assets/TresMarias/portfolio_tresMarias_6.png', '/assets/TresMarias/portfolio_tresMarias_7.png', '/assets/TresMarias/portfolio_tresMarias_8.png'],
+            description:'Idealização de campanha e conceito + Slogan + Direção de filme principal de campanha + Depoimentos + Lançamento de pulseira.'
             
             },
             {
                 id: 1,
                 title: 'COLEÇÃO 7 PODERES',
-                images:[''],
-                description:'CAMPANHA DE LANÇAMENTO DA COLEÇÃO 7 PODERES COM 7 REVENDEDORAS REPRESENTANDO CADA PODER + FASHION FILM + DEPOIMENTOS DE REVENDEDORES'
+                images:['/assets/TresMarias/portfolio_tresMarias_9.png', '/assets/TresMarias/portfolio_tresMarias_10.png'],
+                description:'Campanha de lançamento da coleção 7 poderes com 7 revendedoras representando cada poder + Fashion film + Depoimentos de revendedores.'
                 
                 },
             
         ]
     },
     {
-        id: 3,
+        id: "ambev",
         name: 'Ambev - Stella Artois',
         description: 'Camapanha com influenciadores, com entregas de presentes para aumento de engajamento nas mídias sociais.',
         cover: '/assets/Ambev/portfolio_ambev_1.png',
+        banner: ['/assets/Ambev/portfolio_stella_banner.png'],
+        images: ['/assets/Ambev/portfolio_stella_2.png'],
         projects: []
     },
     {
-        id: 4,
+        id: "fruki",
         name: 'Fruki',
         description: 'Apoio na criação da campanha ”O verão vai ficar pequeno” + Conteúdo para Instagram e TikTok + Criação de desafios para TIkTok + Trabalho com influencers.',
         cover: '/assets/Fruki/portfolio_fruki_1.png',
+        banner: ['/assets/Fruki/portfolio_fruki_banner.png'],
         projects: [
             {
             id: 0,
             title: 'Produção de conteúdo para o TikTok da Fruki Guaraná',
-            images:[''],
-            description:''
+            images:['/assets/Fruki/portfolio_fruki_2.png', '/assets/Fruki/portfolio_fruki_3.png', '/assets/Fruki/portfolio_fruki_4.png',],
+            description:'Produção de conteúdo para o TikTok da Fruki Guaraná'
             
             },
             {
                 id: 1,
                 title: 'Trabalho com influenciadores no TikTok',
-                images:[''],
-                description:''
+                images:['/assets/Fruki/portfolio_fruki_5.png', '/assets/Fruki/portfolio_fruki_6.png', '/assets/Fruki/portfolio_fruki_7.png', '/assets/Fruki/portfolio_fruki_8.png', '/assets/Fruki/portfolio_fruki_9.png',],
+                description:'Trabalho com influenciadores no TikTok'
                 
                 },
             {
                 id: 2,
                 title: 'Trabalho com influenciadores no INSTAGRAM',
-                images:[''],
-                description:''
+                images:['/assets/Fruki/portfolio_fruki_10.png', '/assets/Fruki/portfolio_fruki_11.png'],
+                description:'Trabalho com influenciadores no INSTAGRAM'
                 
                 },
             
         ]
     },
     {
-        id: 5,
+        id: "comtem",
         name: 'COM/TEM',
         description: 'Primeira campanha criada e 100% produzida por mim para reconhecimento de mercado. Foi um grande desafio diante da confiança depositada e gerou muitos aprendizados.',
         cover: '/assets/Comtem/portfolio_comtem_1.png',
+        banner: ['/assets/Comtem/portfolio_comtem_banner.png'],
         projects: [
             {
             id: 0,
-            title: 'Produção de conteúdo para o TikTok da Fruki Guaraná',
-            images:[''],
-            description:''
+            title: 'Criação da campanha ”verão 100%” + Conceito da campanha + "Recebidos” para influenciadores.',
+            images:['/assets/Comtem/portfolio_comtem_2.png', '/assets/Comtem/portfolio_comtem_3.png', '/assets/Comtem/portfolio_comtem_4.png',],
+            description:'Criação da campanha ”verão 100%” + Conceito da campanha + "Recebidos” para influenciadores.'
             
             },
-            {
-                id: 1,
-                title: 'Trabalho com influenciadores no TikTok',
-                images:[''],
-                description:''
-                
-                },
-            {
-                id: 2,
-                title: 'Trabalho com influenciadores no INSTAGRAM',
-                images:[''],
-                description:''
-                
-                },
             
         ]
     },
