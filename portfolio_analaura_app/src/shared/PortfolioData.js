@@ -47,7 +47,7 @@ export const PORTFOLIODATA = [
     {
         id: "ambev",
         name: 'Ambev - Stella Artois',
-        description: 'Camapanha com influenciadores, com entregas de presentes para aumento de engajamento nas mídias sociais.',
+        description: 'Campanha com influenciadores, com entregas de presentes para aumento de engajamento nas mídias sociais.',
         cover: '/assets/Ambev/portfolio_ambev_1.png',
         banner: ['/assets/Ambev/portfolio_stella_banner.png'],
         images: ['/assets/Ambev/portfolio_stella_2.png'],
